@@ -5,7 +5,7 @@
 
 ## 🧠 Overview
 
-**CLFSeg** is a novel encoder-decoder-based deep learning framework designed to improve medical image segmentation, especially in boundary-ambiguous and uncertain anatomical regions. Our key contribution is the **Fuzzy-Convolutional (FC) Module**, which leverages convolutional layers and fuzzy logic to enhance robustness, clarity, and efficiency in medical segmentation tasks.
+**CLFSeg** is an encoder-decoder-based deep learning framework designed to improve medical image segmentation, especially in boundary-ambiguous and uncertain anatomical regions. Our key contribution is the **Fuzzy-Convolutional (FC) Module**, which leverages convolutional layers and fuzzy logic to enhance robustness, clarity, and efficiency in medical segmentation tasks.
 
 The model achieves **SOTA performance** across polyp and cardiac segmentation tasks using:
 - Fuzzy reasoning in convolution
@@ -18,7 +18,7 @@ The model achieves **SOTA performance** across polyp and cardiac segmentation ta
 ## 📄 Paper
 
 Coming soon...  
-Check our [Project Page](https://kunaljangid01.github.io/) for updates.
+Check our [Project Page](https://visdomlab.github.io/CLFSeg/) for updates.
 
 ---
 
