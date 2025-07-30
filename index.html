@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      padding: 50px;
+      background-color: #f8f9fa;
+    }
+
+    .abstract-section {
+      margin-top: 30px;
+    }
+
+    .tsne-images img {
+      width: 100%;
+      max-width: 500px;
+      margin: 15px 0;
+    }
+    .banner {
+        width: 100%;
+        max-height: 400px;
+        overflow: hidden;
+      }
+  
+      .banner img {
+        width: 100%;
+        object-fit: cover;
+      }
+  
+      .hero {
+        padding: 30px 0;
+        text-align: center;
+        background-color: #f8f9fa;
+      }
+  
+      .media-section {
+        margin: 30px 0;
+      }
+  
+      .abstract-section {
+        margin-top: 30px;
+      }
+  
+      footer {
+        margin-top: 30px;
+        padding: 20px 0;
+        background-color: #343a40;
+        color: #fff;
+        text-align: center;
+      }
+  
+      a {
+        text-decoration: none;
+      }
+  
+      .list-group-item {
+        border: none;
+      }
+  </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">CLFSeg</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#abstract">Abstract</a></li>
+          <li class="nav-item"><a class="nav-link" href="#data">Data</a></li>
+          <li class="nav-item"><a class="nav-link" href="#visualization">Visualization</a></li>
+          <li class="nav-item"><a class="nav-link" href="#citation">Citation</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>CLFSeg: A Fuzzy-Logic based Solution for Boundary Clarity and Uncertainty Reduction in Medical Image Segmentation</h1>
+    <h3 class="text-muted"><a href="https://enthusiast101.github.io/" class=""> Anshul Kaushal</a>  |  <a href="https://kunaljangid01.github.io/" class=""> Kunal Jangid</a> | <a href="https://vinodkkurmi.github.io/" class=""> Vinod K Kurmi</a> </h3>
+    <h4 class="text-muted"> Indian Institute of Science Education and Research, Bhopal, India</h4>    
+    
+
+    <!-- New line for BMVC acceptance (centered and prominent) -->
+    <div class="mt-3 mb-2">
+      <p class="text-success fw-bold" style="font-size: 2.5rem; margin: 0;">📢 Accepted at 36th British Machine Vision Conference (BMVC) 2025</p>
+    </div>
+    
+    <div class="d-flex justify-content-center">
+
+      <a href="#" class="btn btn-primary m-2">PDF - Coming Soon....</a>
+      <!-- <a href="#" class="btn btn-secondary m-2">PDF (TOG Version)</a> -->
+      <a href="" class="btn btn-success m-2">Code - Coming Soon....</a>
+      <!-- <a href="#" class="btn btn-info m-2">Supplementary</a> -->
+    </div>
+  </header>
+ 
+  <div id="abstract" class="container abstract-section d-flex align-items-start ">
+    <!-- Image on the Left -->
+    <div class="me-3 mb-3">
+        <img src="CLFSeg_Refine.png" alt="Abstract Illustration"  class="img-fluid" style="max-width: 800px; border-radius: 4px;">
+        <img src="FC_Module.png" alt="Abstract Illustration"  class="img-fluid" style="max-width: 800px; border-radius: 4px;">
+ 
+    </div>
+
+    <!-- Abstract Text on the Right -->
+    <div class="col-md-8 " style="max-width: 700px; margin: 0 auto;">
+        <h2 class="flex-wrap">Abstract</h2>
+        <p class="flex-wrap" style="line-height: 1.6;  text-align: justify;">
+            Accurate polyp and cardiac segmentation for early detection and treatment is essential for the diagnosis and treatment planning of cancer-like diseases. 
+            Traditional convolutional neural network (CNN) based models have represented limited generalizability, robustness, and inability to handle uncertainty, 
+            which affects the segmentation performance. To solve these problems, this paper introduces CLFSeg, an encoder-decoder based framework that aggregates the 
+            Fuzzy-Convolutional (FC) module leveraging convolutional layers and fuzzy logic. This module enhances the segmentation performance by identifying local and 
+            global features while minimizing the uncertainty, noise, and ambiguity in boundary regions, ensuring computing efficiency. In order to handle class imbalance 
+            problem while focusing on the areas of interest with tiny and boundary regions, binary cross-entropy (BCE) with dice loss is incorporated. Our proposed model 
+            exhibits exceptional performance on four publicly available datasets, including CVC-ColonDB, CVC-ClinicDB, EtisLaribPolypDB, and ACDC. Extensive experiments and 
+            visual studies show CLFSeg surpasses the existing SOTA performance and focuses on relevant regions of interest in anatomical structures. The proposed CLFSeg 
+            improves performance while ensuring computing efficiency, which makes it a potential solution for real-world medical diagnostic scenarios.
+        </p>
+    </div>
+</div>
+
+
+
+
+
+  
+
+
+  <!-- Code and Data Section -->
+  <div id="data" class="container">
+    <h2>Data <h4> Data Link Coming Soon....</h4></h2> 
+    <ul class="list-group">
+      <li class="list-group-item">
+        
+        <a href="#"><strong>CVC-ColonDB Dataset:</strong>  </a> | <a href="#">Trained Weights </a>
+      </li>
+      <li class="list-group-item">
+        
+        <a href="#"><strong>CVC-ClinicDB Dataset:</strong> </a> | <a href="#">Trained Weights   </a>
+      </li>
+      <li class="list-group-item">
+        
+        <a href=""><strong>ETIS-LaribPolyp Dataset:</strong>  </a> | <a href="#">Trained Weights </a>
+      </li>
+      <li class="list-group-item">
+        
+        <a href="#"><strong>Automated Cardiac Diagnosis Challenge (ACDC) Dataset:</strong> </a> | <a href="#">Trained Weights</a>
+      </li>
+    </ul>
+  </div>
+
+
+  
+  <!-- Citation Section -->
+  <div id="citation" class="container mt-4">
+    <h2>BibTeX</h2>
+    <pre>
+@inproceedings{Kaushal_2025_BMVC,
+    author    = {Kaushal, Anshul and Jangid, Kunal and Kurmi, Vinod K},
+    title     = {CLFSeg: A Fuzzy-Logic based Solution for Boundary Clarity and Uncertainty Reduction in Medical Image Segmentation},
+    booktitle = {36th British Machine Vision Conference 2025, {BMVC} 2025, Sheffield, UK, November 24-27, 2025},
+    publisher = {BMVA},
+    year      = {2025},
+     
+}
+    </pre>
+  </div>
+
+
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>Research Paper Page</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
