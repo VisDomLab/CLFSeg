@@ -46,3 +46,12 @@ We trained and evaluated CLFSeg on four publicly available datasets:
 ![FC Module](FC_Module.png)
 
 ---
+
+
+## 📬 Contact
+For questions, feedback, or collaborations, please reach out to:
+
+- **Kunal Jangid** – [Website](https://kunaljangid01.github.io/) – 📧 jangidkunal1999@gmail.com  
+
+
+
